@@ -19,7 +19,7 @@ call plug#begin('~/.config/plugged')
     Plug 'vim-pandoc/vim-pandoc-syntax', {'for':'md'}
     "Plug 'Valloric/MatchTagAlways'
     "Colorscheme
-    "Plug 'cocopon/iceberg.vim'
+    Plug 'cocopon/iceberg.vim'
     " Indenting line
     Plug 'Yggdroot/indentLine'
     Plug 'sheerun/vim-polyglot'

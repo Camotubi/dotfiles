@@ -16,4 +16,12 @@ cp $DIR/dunst/"$ENV"_dunstrc $CONFIGDIR/dunst/dunstrc
 echo "#I3"
 cp $DIR/i3/"$ENV"_config $CONFIGDIR/i3/config
 #compton
-cp $DIR/compton"$ENV"_compton.conf $CONFIGDIR/compton.conf
+echo "#Compton"
+cp $DIR/compton/"$ENV"_compton.conf $CONFIGDIR/compton.conf
+#git
+echo "#Git"
+if [ -a $DIR/git/"$ENV"_gitconfig ]; then
+    cp $DIR/git/"$ENV"_gitconfig $HOME/.gitconfig
+else
+    cp $DIR/git/gitconfig $HOME/.gitconfig
+fi

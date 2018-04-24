@@ -1,10 +1,17 @@
+#!/bin/sh
+DIR="$( cd "$( dirname "$0" )" && pwd )"
+if [ "$1" == "" ]; then
+    ENV="desktop"
+else
+    ENV=$1
+fi
 CONFIGDIR="$HOME/.config"
-
 #Neovim config
-cp nvim/init.vim $CONFIGDIR/nvim/init.vim
+echo "#NeoVim"
+cp $DIR/nvim/"$ENV"_init.vim $CONFIGDIR/nvim/init.vim
 #Dunst config
-cp dunst/dunstrc $CONFIGDIR/dunst/dunstrc
+cp $DIR/dunst/"$ENV"_dunstrc $CONFIGDIR/dunst/dunstrc
 #i3 config
-cp i3/config $CONFIGDIR/i3/config
+cp $DIR/i3/"$ENV"_config $CONFIGDIR/i3/config
 #compton
-cp compton/compton.conf $CONFIGDIR/compton.conf
+cp $DIR/compton"$ENV"_compton.conf $CONFIGDIR/compton.conf

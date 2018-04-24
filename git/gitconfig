@@ -125,10 +125,10 @@
 [format]
         pretty = '%C(yellow)%h%Creset %C(magenta)%cd%Creset %d %s'
 [user]
-#	name = 
-#	email = 
+	name = Carlos Moisés Tuñón Biddy 
+	email = camotubi@gmail.com|
 [github]
-#	user = 
+	user = camotubi 
 [gitjour]
 #	prefix = 
 

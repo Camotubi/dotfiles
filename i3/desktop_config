@@ -217,8 +217,8 @@ exec_always --no-startup-id $screenScript
 exec --no-startup-id dunst
 exec --no-startup-id compton 
 exec --no-startup-id udiskie 
-workspace $terminalsWorkspace output DVI-D-1
-workspace $firefoxWorkspace output HDMI-2
+#workspace $terminalsWorkspace output DVI-D-1
+#workspace $firefoxWorkspace output HDMI-2
 # Wallpaper setting
 exec_always feh --bg-scale /home/ctunon/Imágenes/Wallpapers/wallhaven-592459.jpg
 ## This avoids gaps moving the wallpaper

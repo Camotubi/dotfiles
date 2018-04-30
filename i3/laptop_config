@@ -5,9 +5,9 @@
 # this file and re-run i3-config-wizard(1).
 #
 # Variables
-set $firefoxWorkspace 
-set $terminalsWorkspace 
-set $musicWorkspace 
+set $terminalsWorkspace "1:"
+set $firefoxWorkspace "2:"
+set $musicWorkspace "10:" 
 # i3 config file (v4)
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
@@ -156,6 +156,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
         status_command i3status
+        strip_workspace_numbers yes
 }
 
 

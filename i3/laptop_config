@@ -172,7 +172,8 @@ exec --no-startup-id udiskie
 for_window [class=".*"] border pixel 1hide_edge_borders both
 
 # Theme
-
+## Wallpaper
+exec sh ~/.fehbg
 set $FOCUS #fff
 set $UNFOCUS #3c3b37
 

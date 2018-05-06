@@ -7,7 +7,7 @@
 # Variables
 set $monitor1 DVI-D-1
 set $monitor2 HDMI-1
-set $screenScript /home/ctunon/.screenlayout.sh
+set $screenScript /home/ctunon/.screenlayout/screenlayout.sh
 set $firefoxWorkspace 
 set $terminalsWorkspace 
 set $musicWorkspace 
